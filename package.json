@@ -1,0 +1,22 @@
+{
+  "name": "e2e-saucelabs-tests",
+  "version": "1.0.0",
+  "description": "Automation project with TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "purchaseTest": "testcafe chrome pom/tests/Purchase.test.js"
+  },
+  "keywords": [
+    "QA",
+    "Testing",
+    "Automation",
+    "TestCafe",
+    "Javascript"
+  ],
+  "author": "Jaime Contreras",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "testcafe": "^1.20.0"
+  }
+}
