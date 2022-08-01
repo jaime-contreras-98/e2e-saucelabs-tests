@@ -4,7 +4,7 @@
   "description": "Automation project with TestCafe",
   "main": "index.js",
   "scripts": {
-    "purchaseTest": "testcafe chrome pom/tests/Purchase.test.js "
+    "purchaseTest": "testcafe chrome pom/tests/Purchase.test.js --reporter html:reports/purchase-tests-results.html"
   },
   "keywords": [
     "QA",

@@ -1,5 +1,8 @@
 Automation framework which automates a purchase test scenario where a user purchase two products.
 
+The following scenarios where automated:
+- Login
+
 This framework uses TestCafe + Javascript + ESLint + .env + TestCafe Reporter + Git(.gitignore and .gitkeep).
 
 At the end of the test execution, it will generate a .html report with the result of the test.

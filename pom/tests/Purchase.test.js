@@ -14,7 +14,7 @@ fixture("Purchase process with TestCafe on saucedemo.com")
         await t.wait(1500);
     });
 
-test("As a user I want to login using my credentials, add 2 products, visualize my products and purchase them", async t => {
+test("As a user I want to login using my credentials, add 2 products, visualize my products and purchase them.", async t => {
     await PurchasePage.PurchaseProducts();
 
     await t.expect(CheckoutCompletePage.successOrderLabel.innerText).eql(MESSAGES.ORDER_COMPLETED);
